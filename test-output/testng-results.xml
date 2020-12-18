@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-16T03:37:32 PST" name="Default suite" finished-at="2020-12-16T03:44:40 PST" duration-ms="428009">
+    <groups>
+    </groups>
+    <test started-at="2020-12-16T03:37:32 PST" name="Default test" finished-at="2020-12-16T03:44:40 PST" duration-ms="428009">
+      <class name="signUpNG.testNG">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:signUpNG.testNG@2525ff7e]" started-at="2020-12-16T03:37:32 PST" name="setUp" finished-at="2020-12-16T03:37:38 PST" duration-ms="6754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:signUpNG.testNG@2525ff7e]" started-at="2020-12-16T03:37:40 PST" name="loginTest" data-provider="dp" finished-at="2020-12-16T03:37:52 PST" duration-ms="12035" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value is-null="true"/>
+            </param>
+            <param index="12">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+at signUpNG.signinUser.sendkeys(signinUser.java:31)
+at signUpNG.testNG.loginTest(testNG.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:signUpNG.testNG@2525ff7e]" started-at="2020-12-16T03:37:52 PST" name="loginTest" data-provider="dp" finished-at="2020-12-16T03:40:41 PST" duration-ms="168800" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AWS123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AB]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1997]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[55270]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[3331234567]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="header"]/div[2]/div/div/nav/div[1]/a/span"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3V8DTOO', ip: '192.168.56.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ameer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10207}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cbddd22aace04987f0bca56a8b36c18c
+*** Element info: {Using=xpath, value=//*[@id="header"]/div[2]/div/div/nav/div[1]/a/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="header"]/div[2]/div/div/nav/div[1]/a/span"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3V8DTOO', ip: '192.168.56.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ameer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10207}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cbddd22aace04987f0bca56a8b36c18c
+*** Element info: {Using=xpath, value=//*[@id="header"]/div[2]/div/div/nav/div[1]/a/span}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy12.getText(Unknown Source)
+at signUpNG.testNG.loginTest(testNG.java:80)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:signUpNG.testNG@2525ff7e]" started-at="2020-12-16T03:40:41 PST" name="loginTest" data-provider="dp" finished-at="2020-12-16T03:41:08 PST" duration-ms="27655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AWS1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1998]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[55271]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[3331234568]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:signUpNG.testNG@2525ff7e]" started-at="2020-12-16T03:41:08 PST" name="loginTest" data-provider="dp" finished-at="2020-12-16T03:41:40 PST" duration-ms="31336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AWS2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EF]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1999]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[55272]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[3331234569]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:signUpNG.testNG@2525ff7e]" started-at="2020-12-16T03:41:40 PST" name="loginTest" data-provider="dp" finished-at="2020-12-16T03:42:02 PST" duration-ms="22490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AWS3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GH]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GH]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[55273]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[3331234570]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:signUpNG.testNG@2525ff7e]" started-at="2020-12-16T03:42:02 PST" name="loginTest" data-provider="dp" finished-at="2020-12-16T03:42:28 PST" duration-ms="25714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AWS4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IJ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IJ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2001]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[55274]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[3331234571]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:signUpNG.testNG@2525ff7e]" started-at="2020-12-16T03:42:28 PST" name="loginTest" data-provider="dp" finished-at="2020-12-16T03:42:55 PST" duration-ms="26822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AWS5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[KL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2002]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[55275]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[3331234572]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:signUpNG.testNG@2525ff7e]" started-at="2020-12-16T03:42:55 PST" name="loginTest" data-provider="dp" finished-at="2020-12-16T03:43:31 PST" duration-ms="36631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AWS6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2003]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[55276]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[3331234573]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:signUpNG.testNG@2525ff7e]" started-at="2020-12-16T03:43:31 PST" name="loginTest" data-provider="dp" finished-at="2020-12-16T03:44:08 PST" duration-ms="36633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AWS7@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OP]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OP]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2004]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[55277]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[3331234574]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:signUpNG.testNG@2525ff7e]" started-at="2020-12-16T03:44:08 PST" name="loginTest" data-provider="dp" finished-at="2020-12-16T03:44:40 PST" duration-ms="31716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AWS8@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[QR]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2005]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[55278]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[3331234575]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- signUpNG.testNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
